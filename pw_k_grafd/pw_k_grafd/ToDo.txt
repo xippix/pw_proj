@@ -17,3 +17,5 @@
 	- jako strukturę: liczba użytych kolorów, tablica kolorowania
 
 6. Przejdź przez tablicę, wybierz wynik z najmniejszą liczbą użytych kolorów i wypisz tablicę kolorowania
+
+//testowa zmiana na test gita
