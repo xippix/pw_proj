@@ -1,0 +1,19 @@
+﻿***			Kolorowanie Grafu		***
+
+1. Utwórz tablicę połączeń
+
+2. Sprawdź najwyższy stopień wierzchołka
+
+3. Utwórz podtablice dla każdego wierzchołka
+	- ilość wierszy = stopień największego + 1 [kolory]
+	- ilość kolumn = liczba wierzchołków	(numery wierzchołków z którymi dany wierzchołek jest połączony)
+
+4. Nadawaj kolory
+	- kiedy można nadaj wierzchołkowi kolor już wykorzystany wcześniej (od najniższych nr)
+	- sprawdzaj tablicę kolorów danego wierzchołka
+		gdy chcesz nadać powtarzający się kolor, czy inne wierzchołki mające ten sam kolor nie są połaczone z aktualnie badanym
+
+5. Uruchom współbieżnie program na (n = liczba_wierzchołków) wątkach i niech każdy wątek zapisze swój wynik w tablicy
+	- jako strukturę: liczba użytych kolorów, tablica kolorowania
+
+6. Przejdź przez tablicę, wybierz wynik z najmniejszą liczbą użytych kolorów i wypisz tablicę kolorowania

@@ -1,0 +1,6 @@
+c:\users\smoq\documents\visual studio 2013\Projects\pw_k_grafd\pw_k_grafd\bin\Debug\pw_k_grafd.exe.config
+c:\users\smoq\documents\visual studio 2013\Projects\pw_k_grafd\pw_k_grafd\bin\Debug\pw_k_grafd.exe
+c:\users\smoq\documents\visual studio 2013\Projects\pw_k_grafd\pw_k_grafd\bin\Debug\pw_k_grafd.pdb
+c:\users\smoq\documents\visual studio 2013\Projects\pw_k_grafd\pw_k_grafd\obj\Debug\pw_k_grafd.csprojResolveAssemblyReference.cache
+c:\users\smoq\documents\visual studio 2013\Projects\pw_k_grafd\pw_k_grafd\obj\Debug\pw_k_grafd.exe
+c:\users\smoq\documents\visual studio 2013\Projects\pw_k_grafd\pw_k_grafd\obj\Debug\pw_k_grafd.pdb
