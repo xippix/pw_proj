@@ -51,6 +51,7 @@ namespace pw_k_grafd
                     max_stopien = suma;
                 suma = 0;
             }
+            Console.WriteLine("najwyzszy stopien wierzcholka: {0}", max_stopien);
         }
 
         public void wypisz()
