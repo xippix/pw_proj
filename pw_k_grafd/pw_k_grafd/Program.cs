@@ -19,7 +19,9 @@ namespace pw_k_grafd
             gt.wypisz();
             for (int i = 0; i < 8; i++)
             {
+                Console.WriteLine("tablica dla wierzcholka: {0}", i);
                 testowa[i].wypisz();
+                Console.WriteLine();
             }
             Console.ReadLine();
         }
