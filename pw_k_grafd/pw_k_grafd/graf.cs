@@ -9,7 +9,7 @@ namespace pw_k_grafd
     class graf
     {
         static public int max_stopien;
-        static public int n = 5;
+        static public int n = Convert.ToInt32(Console.ReadLine());
         int[,] tab_polaczen = new int[n, n];
 
         public void gen_tab_polaczen(int p)    //pkt.1 DONE
@@ -102,7 +102,7 @@ namespace pw_k_grafd
                        if (tabl_podtablic[i].tablic_wlasciwa[j, k] == 1)
                        {
                            czy_jest = true;
-                           Console.WriteLine("JEEEST");
+                           //Console.WriteLine("JEEEST");
                        }     
                    }
                    if (czy_jest == false && nadany == false)

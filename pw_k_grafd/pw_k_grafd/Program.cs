@@ -18,14 +18,18 @@ namespace pw_k_grafd
             podtablica[] testowa = new podtablica[ilosc_wierzch];
             testowa = gt.stworz_tablice_podtablic();
             gt.wypisz();
+            /*
             for (int i = 0; i < ilosc_wierzch; i++)
             {
                 Console.WriteLine("tablica pusta dla wierzcholka: {0}", i);
                 testowa[i].wypisz();
                 Console.WriteLine();
-            }
+            }*/
             gt.dobieraj_kolory(testowa);
-            Console.ReadLine();
+            //Console.ReadLine();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("*** \t POKOLOROWANE \t ***\n");
+            Console.ForegroundColor = ConsoleColor.Gray;
             for (int i = 0; i < ilosc_wierzch; i++)
             {
                 Console.WriteLine("tablic pokolorowana dla wierzcholka: {0}", i);
