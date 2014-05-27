@@ -5,10 +5,10 @@
 [X]	2. Sprawdź najwyższy stopień wierzchołka
 
 [X]	3. Utwórz podtablice dla każdego wierzchołka
-	- ilość wierszy = stopień największego + 1 [kolory] (TRZEBA ZWIEKSZYC O 1 LICZBE WIERSZY W KODZIE)
+	- ilość wierszy = stopień największego + 1 [kolory] (TRZEBA ZWIEKSZYC O 1 LICZBE WIERSZY W KODZIE) <- [X]
 	- ilość kolumn = liczba wierzchołków	(numery wierzchołków z którymi dany wierzchołek jest połączony)
 
-[]	4. Nadawaj kolory
+[X]	4. Nadawaj kolory
 	- kiedy można nadaj wierzchołkowi kolor już wykorzystany wcześniej (od najniższych nr)
 	- sprawdzaj tablicę kolorów danego wierzchołka
 		gdy chcesz nadać powtarzający się kolor, czy inne wierzchołki mające ten sam kolor nie są połaczone z aktualnie badanym
